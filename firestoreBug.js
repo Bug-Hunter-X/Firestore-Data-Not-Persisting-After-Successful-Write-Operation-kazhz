@@ -1,0 +1,1 @@
+In a Firebase project, I encountered an unusual issue where data wasn't being written to Firestore despite successful calls to `set()` or `update()`.  The calls returned promises that resolved without errors, yet the data remained absent from the Firestore collection. I had verified all authentication and security rules were correctly configured.
